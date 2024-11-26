@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Theatre Seating</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Movie Theatre Seating</h1>
+    <label for="rollNumber">Enter your Roll Number:</label>
+    <input type="number" id="rollNumber" min="1" placeholder="Enter Roll Number">
+    <button onclick="setSeatAvailability()">Submit</button>
+
+    <div class="seating">
+      <div class="seat" id="seat-1">1</div>
+      <div class="seat" id="seat-2">2</div>
+      <div class="seat" id="seat-3">3</div>
+      <div class="seat" id="seat-4">4</div>
+      <div class="seat" id="seat-5">5</div>
+      <div class="seat" id="seat-6">6</div>
+      <div class="seat" id="seat-7">7</div>
+      <div class="seat" id="seat-8">8</div>
+      <div class="seat" id="seat-9">9</div>
+      <div class="seat" id="seat-10">10</div>
+      <div class="seat" id="seat-11">11</div>
+      <div class="seat" id="seat-12">12</div>
+    </div>
+
+    <button id="doneBtn" onclick="doneSelecting()" style="display: none;">Done</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
